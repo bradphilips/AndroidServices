@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.system.id="GRADLE" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="android-gradle" name="Android-Gradle">
+      <configuration>
+        <option name="GRADLE_PROJECT_PATH" value=":Services" />
+      </configuration>
+    </facet>
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/build" />
+    </content>
+    <content url="file://$MODULE_DIR$/Services">
+      <sourceFolder url="file://$MODULE_DIR$/Services/build/source/r/debug" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Services/build/source/aidl/debug" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Services/build/source/rs/debug" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Services/build/source/buildConfig/debug" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Services/build/res/rs/debug" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Services/build/source/r/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Services/build/source/aidl/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Services/build/source/rs/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Services/build/source/buildConfig/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Services/build/res/rs/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Services/src/debug/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Services/src/debug/assets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Services/src/debug/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Services/src/debug/jni" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Services/src/debug/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Services/src/debug/res" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Services/src/debug/resources" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Services/src/main/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Services/src/main/assets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Services/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Services/src/main/jni" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Services/src/main/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Services/src/main/res" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Services/src/main/resources" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Services/src/instrumentTest/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Services/src/instrumentTest/assets" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Services/src/instrumentTest/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Services/src/instrumentTest/jni" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Services/src/instrumentTest/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Services/src/instrumentTest/res" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Services/src/instrumentTest/resources" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/Services/build/apk" />
+      <excludeFolder url="file://$MODULE_DIR$/Services/build/assets" />
+      <excludeFolder url="file://$MODULE_DIR$/Services/build/bundles" />
+      <excludeFolder url="file://$MODULE_DIR$/Services/build/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/Services/build/dependency-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/Services/build/exploded-bundles" />
+      <excludeFolder url="file://$MODULE_DIR$/Services/build/incremental" />
+      <excludeFolder url="file://$MODULE_DIR$/Services/build/libs" />
+      <excludeFolder url="file://$MODULE_DIR$/Services/build/manifests" />
+      <excludeFolder url="file://$MODULE_DIR$/Services/build/symbols" />
+      <excludeFolder url="file://$MODULE_DIR$/Services/build/tmp" />
+    </content>
+    <orderEntry type="jdk" jdkName="Android 4.2.2" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="javax.inject-1" level="project" />
+    <orderEntry type="library" name="aopalliance-1.0" level="project" />
+    <orderEntry type="library" name="asm-3.1" level="project" />
+    <orderEntry type="library" name="cglib-2.2.1-v20090111" level="project" />
+    <orderEntry type="library" name="guice-3.0-no_aop" level="project" />
+    <orderEntry type="library" name="roboguice-2.0" level="project" />
+    <orderEntry type="library" name="jackson-core-asl-1.9.12" level="project" />
+    <orderEntry type="library" name="jackson-mapper-asl-1.9.12" level="project" />
+    <orderEntry type="library" name="spring-android-core-1.0.1.RELEASE" level="project" />
+    <orderEntry type="library" name="spring-android-rest-template-1.0.1.RELEASE" level="project" />
+    <orderEntry type="library" name="android-support-v4" level="project" />
+  </component>
+</module>
+
