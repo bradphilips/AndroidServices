@@ -76,7 +76,7 @@
       <file leaf-file-name="BaseService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Services/src/main/java/services/common/BaseService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="608">
+            <state line="18" column="0" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="665">
               <folding />
             </state>
           </provider>
@@ -85,10 +85,8 @@
       <file leaf-file-name="ServiceTask.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Services/src/main/java/services/common/ServiceTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="21" selection-start="1332" selection-end="1332" vertical-scroll-proportion="0.5301028" vertical-offset="0" max-vertical-offset="1615">
-              <folding>
-                <element signature="e#2745#2756#0" expanded="true" />
-              </folding>
+            <state line="97" column="108" selection-start="3594" selection-end="3594" vertical-scroll-proportion="0.6372981" vertical-offset="1124" max-vertical-offset="1805">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -584,6 +582,13 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Services/src/main/java/services/common/SimpleDateDeserializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="494">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Services/src/main/java/services/common/BaseService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="13" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="665">
@@ -674,10 +679,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Services/src/main/java/services/common/ServiceTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="21" selection-start="1332" selection-end="1332" vertical-scroll-proportion="0.5301028" vertical-offset="0" max-vertical-offset="1615">
-          <folding>
-            <element signature="e#2745#2756#0" expanded="true" />
-          </folding>
+        <state line="97" column="108" selection-start="3594" selection-end="3594" vertical-scroll-proportion="0.6372981" vertical-offset="1124" max-vertical-offset="1805">
+          <folding />
         </state>
       </provider>
     </entry>

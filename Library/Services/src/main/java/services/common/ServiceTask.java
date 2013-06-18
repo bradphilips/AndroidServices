@@ -29,6 +29,8 @@ public class ServiceTask<T, TBody> extends AsyncTask<Void, Void, ResponseWrapper
     private Class<T> mResponseType;
     private Context mContext;
 
+    private ServiceConfiguration mServiceConfiguration;
+
     public ServiceTask(ServiceCallback<T> callback, HttpMethod method, String path, Class<T> responseType, Context context) {
         mCallback = callback;
         mMethod = method;
@@ -90,5 +92,13 @@ public class ServiceTask<T, TBody> extends AsyncTask<Void, Void, ResponseWrapper
 
     public void setBody(TBody mBody) {
         this.mBody = mBody;
+    }
+
+    public ServiceConfiguration getServiceConfiguration() {
+        return mServiceConfiguration == null ? ServiceConfiguration.sharedInstance() : mServiceConfiguration;
+    }
+
+    public void setServiceConfiguration(ServiceConfiguration serviceConfiguration) {
+        mServiceConfiguration = serviceConfiguration;
     }
 }

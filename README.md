@@ -7,7 +7,7 @@ Simple common source library for android services incorporating several 'best pr
 
 Given that the login takes a username and password and returns a user object I've split this example into 2 models and a simple service call.  The 2 models are as follows:
 
-`LoginUser` - Username and password combination to call to the service layer.  Binds directly to the JSON payload depending on what media type you specify on the `ServiceTask`.
+`LoginUser` - Username and password combination to call to the service layer.  This binds directly to the JSON payload.
 
     public class LoginUser implements Serializable {
         @JsonProperty("username")
@@ -32,7 +32,7 @@ Given that the login takes a username and password and returns a user object I'v
         }
     }
 
-`User` - The returned user model.  Binds directly from JSON response depending on what media type you specify on the `ServiceTask`.
+`User` - The returned user model.  This binds directly from the JSON response.
 
     public class User implements Serializable {
         @JsonProperty("id")
@@ -80,7 +80,11 @@ You can also optionally hold on to the `AsyncTask` that is returned by the `exec
 
 #### Configuration
 
-The `ServiceTask` class creates it's url from combining the base url from the shared `ServiceConfiguration` by default.  The `ServiceConfiguration` object allows configuration per environment of your root service url.  You can also opt for a custom configuration on a per task basis by calling `setServiceConfiguration(ServiceConfiguration configuration)` based on your custom environments.
+The `ServiceTask` class creates it's url from combining the base url from the shared `ServiceConfiguration` by default.  The `ServiceConfiguration` object allows configuration per environment of your root service url.  You can also opt for a custom configuration on a per task basis by calling `setServiceConfiguration(ServiceConfiguration configuration)` based on your custom environments.  
+
+#### Misc
+
+There is a `BaseService` class to allow easily creating resources and encapsulating service requests into modular classes.  Also, there are several utility classes to manage cookies and uniform dates.
 
 #### Dependencies
 
